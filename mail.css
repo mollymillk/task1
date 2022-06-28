@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Medium.eot');
+    src: url('./fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Roboto-Medium.woff2') format('woff2'),
+        url('./fonts/Roboto-Medium.woff') format('woff'),
+        url('./fonts/Roboto-Medium.ttf') format('truetype'),
+        url('./fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+fieldset {
+    background-color: #F5F5F5;
+    width: 441px;
+    padding-left: 15px;
+    padding-right: 0px;
+    border: 0.01em solid #CECECE;
+}
+.main_fieldset {
+    height: 230px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.mail_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 310px;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+}
+.mail_text p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.mail_logo {
+    margin-left: 22px;
+    margin-top: 10px;
+}
+.mail_logo img {
+    /* width: 70px; */
+    height: 82px;
+}
+hr { 
+    border: 1px solid;
+    background-color: black;
+    width: 430px;
+}
+.footer_fieldset {
+    padding-top: 1px;
+    border-top: 0;
+    height: 27px;
+}
+footer {
+    width: 431px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 11px;
+    letter-spacing: 0pc;
+}
+a {
+    text-decoration: none;
+}
