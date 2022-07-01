@@ -14,15 +14,15 @@
                 <section class="user_data">
                     <p>
                         <label for="user_name">Ваше имя</label>
-                        <input type="text" id="user_name" placeholder="Имя"/>
+                        <input type="text" id="user_name" pattern="[A-zА-ЯЁа-яё]*" placeholder="Имя"/>
                     </p>
                     <p>
                         <label for="user_email">Email</label>
-                        <input type="email" id="user_email" placeholder="email@yandex.ru"/>
+                        <input type="email" id="user_email" patern="/^[^ ]+@[^ ]+\.[a-z]{2,3}$/" placeholder="email@yandex.ru"/>
                     </p>
                     <p>
                         <label for="user_phone">Телефон</label>
-                        <input type="tel" id="user_phone" placeholder="89990007766" minlength="11" maxlength="11"/>
+                        <input type="tel" id="user_phone" pattern="89[0-9]{9}" placeholder="89990007766" minlength="11" maxlength="11"/>
                     </p>
                 </section>
                 <section class="notification_options">
